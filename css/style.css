@@ -1,0 +1,162 @@
+.intro{
+	background-color:skyblue;
+}
+.hometown{
+	background-color: yellow;
+}
+p.center{
+	text-align: center;
+	color: red;
+}
+p.large{
+	font-size: 200%;
+	color: tomato;
+}
+.firstname, .hometown{
+	background-color: deepskyblue;
+}
+*{
+	font-family: cursive;
+}
+span>p{
+	background-color: green;
+}
+a[target]{
+	background-color: tomato;
+}
+a:visited {
+  color: pink;
+}
+input[type="text"] {
+	width: 100px;
+	-webkit-transition: width .35s ease-in-out;
+	color: lightskyblue;
+
+}
+input[type="text"]:focus {
+	width: 250px;
+	color: deepskyblue;
+}
+[title~="flowers"] {
+  border: 5px solid yellow;
+}
+[title~="Roses"] {
+  border: 5px solid green;
+}
+[title~="popies"] {
+  border: 5px solid darkred;
+}
+[lang|="en-us"] {
+	background-color:lightpink ;
+}
+[lang|=en-uk]{
+	background-color: yellow;
+}
+div[class^="test"] {
+  background: #ffff66;
+}
+div[class$="test"]{
+	background: limegreen;
+}
+p[class$="test"]{
+	background: palegreen;
+}
+a:active{
+	background-color: green;
+}
+a:hover{
+	background-color: yellow;
+}
+
+p[class^="1"]::after {
+	background-color: palegreen;
+	content:"  --Universal truth";
+	color: blue;
+	font-weight: bold;
+}
+
+p[class^="1"]::before {
+	background-color: hotpink;
+	content:"  --Read this";
+	color: green;
+	font-weight: bold;
+}
+input:checked {
+  height: 15px;
+  width: 15px;
+}
+p[class^="2"]{
+	background-color: lightskyblue;
+}
+input:default {
+  box-shadow: 0 0 1px 1px red;
+}
+
+option:checked{
+	height: 600px;
+	width: 600px;
+}
+
+input[type=text0]:enabled {
+	border-color: green;
+	background: #ffff00;
+}
+p:empty{
+	 width: 100px;
+	 height: 20px;
+	 background: #ff0000;
+}
+
+p[class^="5"]::first-letter {
+	font-size: 200%;
+	color: #8A2BE2;
+}
+
+p[class="6"]::first-line{
+	background-color: yellowgreen;
+}
+
+input[class^="11"]:focus{
+	background-color: pink;
+}
+
+input[class="12"]:in-range {
+border: 3px dotted red;
+}
+input[class="13"]{
+	border: 2px solid blue;
+}
+p[class^="abc"]:last-child {
+    background: #ff0000;
+}
+
+::marker{
+	color: red;
+	font-size: 23px;
+}
+
+div[clasinputs="sibling"]:nth-child(2){
+	background:red;
+}
+ul[class="child":nth-child(2){
+	background:lightgreen;
+}
+:nth-child(3){
+	background color: yellow;
+}
+p[class="efg"]input:optional{
+	background-color: yellow;
+}
+
+::webkit-input-placeholder{
+	color:red;
+}
+}
+input[class="text"::placeholder {
+  background-color: red;
+}
+
+:target{
+	  border: 2px solid #D4D4D4;
+  background-color: #e5eecc;
+}
